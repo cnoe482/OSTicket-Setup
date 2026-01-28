@@ -164,3 +164,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Remove full control from Everyone
 <img width="920" height="592" alt="step13" src="https://github.com/user-attachments/assets/d0dd7542-0b61-4ec8-8f64-d6b468802ac4" />
 
+<h2>Step 13 – Congratulations</h2>
+
+<img width="756" height="590" alt="Screenshot 2026-01-28 181304" src="https://github.com/user-attachments/assets/89e09e89-6b0e-449a-bde4-556ac7c33fd1" />
+
+
