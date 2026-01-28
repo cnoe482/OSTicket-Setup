@@ -63,6 +63,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 5</h2>
 
 <img width="1082" height="626" alt="step6" src="https://github.com/user-attachments/assets/8247f2fe-4f77-4fd1-86ed-0ffc9a064aa4" />
+
 - Run VC_redist.x86.exe
 - Install MySQL 5.6.62
     - Setup Type: Typical
