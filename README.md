@@ -23,13 +23,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)
 - <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket Installation Files Package</a>
 
-<h2>Step 1</h2>
+<h2>Step 1 – Download osTicke</h2>
 
 - Download osTicket Installation Files Package
 - Extract the files to the default path
 <img width="1144" height="730" alt="step1" src="https://github.com/user-attachments/assets/5f1e1f02-8b42-4101-bb8d-77c5df1ae34d" />
 
-<h2>Step 2</h2>
+<h2>Step 2 – Enable IIS</h2>
 
 - Press Win + R
 - Type "optionalfeatures"
@@ -41,7 +41,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Click OK
 - Restart Computer
 
-<h2>Step 3</h2>
+<h2>Step 3 – Install PHPManager & Rewrite</h2>
 
 - Open osTicket-Installation-Files
 - Run PHPManagerForIIS
@@ -50,7 +50,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Complete installation
 <img width="1128" height="634" alt="step3" src="https://github.com/user-attachments/assets/9dc75170-4171-4625-b4a5-eb09ea67ab88" />
 
-<h2>Step 4</h2>
+<h2>Step 4 – Create PHP Directory</h2>
 
 - Navigate to C:\
 - Create a folder named PHP
@@ -60,7 +60,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1114" height="830" alt="step5" src="https://github.com/user-attachments/assets/c6b5e04c-86e7-4ddf-ba92-334faac4b358" />
 (PHP 7.3.8 is used for osTicket compatibility in this lab and is not recommended for production.)
 
-<h2>Step 5</h2>
+<h2>Step 5 – Install Dependencies</h2>
 
 <img width="1082" height="626" alt="step6" src="https://github.com/user-attachments/assets/8247f2fe-4f77-4fd1-86ed-0ffc9a064aa4" />
 
@@ -75,16 +75,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="501" height="378" alt="step6-4" src="https://github.com/user-attachments/assets/e6a08e94-e0d3-4990-82a0-815d9602dc14" />
 
-<h2>Step 6</h2>
+<h2>Step 6 – Configure PHP in IIS</h2>
 
 - Open IIS Manager as Administrator
 - Open PHP Manager
 - Register PHP version: C:\PHP\php-cgi.exe
-- Restart IIS Stop then start server
+- Restart IIS (Stop then start server)
   
 <img width="1224" height="743" alt="step7-2" src="https://github.com/user-attachments/assets/534bb507-5dc3-48ff-a2d9-4da6b6188029" />
 
 <img width="481" height="350" alt="step7-3" src="https://github.com/user-attachments/assets/11b01ede-5a84-47d3-9d24-5bfed478bf99" />
 
 <img width="457" height="384" alt="step7-4" src="https://github.com/user-attachments/assets/22d5a9ad-bfd6-42a6-934b-1c8f12677e40" />
+
+<h2>Step 7 – Deploy osTicket</h2>
+
+- Extract osTicket-v1.15.8
+- Copy the upload folder to: C:\inetpub\wwwroot
+- Rename upload → osTicket
+- Restart IIS
+- In IIS Connections-> ServerName -> Sites - Default WebSite -> osTicket select Browse *:80(http)  
+<img width="1423" height="746" alt="step9" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
+
+<h2>Step 8</h2>
+
+
+
 
