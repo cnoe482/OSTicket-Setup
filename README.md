@@ -130,3 +130,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1174" height="521" alt="step10-2" src="https://github.com/user-attachments/assets/28065eb6-2e1b-4956-9d4c-1e2708832494" />
 <img width="757" height="511" alt="step10-3" src="https://github.com/user-attachments/assets/4bc285bf-f3e6-4983-9378-f64c52d0f8ff" />
 
+<h2>Step 10 – Web-Based Setup</h2>
+
+- Click Continue on osTicket setup page
+- Fill in:
+    - System Settings
+    - Admin User
+ <img width="801" height="631" alt="step11" src="https://github.com/user-attachments/assets/70d452be-28a8-4c23-a71e-3f349b676101" />
+
+- Database Settings:
+    - Database: osTicket
+    - Username: root
+    - Password: root
+<img width="822" height="434" alt="step11-1" src="https://github.com/user-attachments/assets/207969b9-cbaa-4765-88ff-79594635ef1e" />
+
+<h2>Step 11 – Install HeidiSQL</h2>
+
+- Run HeidiSQL_12.3.0.6589_Setup
+- <img width="933" height="592" alt="step12" src="https://github.com/user-attachments/assets/dc21640e-f90a-46cb-b6e6-740b3685a062" />
+
+- Launch HeidiSQL
+- Create a new session:
+    - Username: root
+    - Password: root
+<img width="685" height="485" alt="step12-2" src="https://github.com/user-attachments/assets/3967d148-d95c-4d68-91e8-f0b1a4df14f6" />
+<img width="971" height="866" alt="step12-3" src="https://github.com/user-attachments/assets/80a7f51e-2ac7-4016-b2ae-4f261674b53d" />
+
+<h2>Step 12 – Cleanup & Security</h2>
+
+- Delete: C:\inetpub\wwwroot\osTicket\setup
+- Restrict permissions:
+    - ost-config.php → Read Only
+    - Remove full control from Everyone
+<img width="920" height="592" alt="step13" src="https://github.com/user-attachments/assets/d0dd7542-0b61-4ec8-8f64-d6b468802ac4" />
+
