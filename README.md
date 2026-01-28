@@ -16,3 +16,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 11</b> (52H2-PRO)
 
 <h2>List of Prerequisites</h2>
+
+- Microsoft Azure account
+- Windows 11 Virtual Machine
+- Remote Desktop Client
+- Internet Information Services (IIS)
+- osTicket Installation Files Package
