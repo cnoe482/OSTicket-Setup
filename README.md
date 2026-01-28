@@ -34,10 +34,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Press Win + R
 - Type "optionalfeatures"
 - Enable "Internet Information Services"
-- Enable Internat Information Services -> World Wide Services -> Application Development Features -> CGI
+- Enable Internet Information Services -> World Wide Services -> Application Development Features -> CGI
   
 <img width="689" height="700" alt="step2" src="https://github.com/user-attachments/assets/b958c399-0517-4d71-b69b-47c7f8bbbbaf" />
 
 - Click OK
 - Restart Computer
+
+<h2>Step 3</h2>
+
+- Open osTicket-Installation-Files
+- Run PHPManagerForIIS
+- Complete the wizard
+- Run rewrite_amd64_en-US
+- Complete installation
+<img width="1128" height="634" alt="step3" src="https://github.com/user-attachments/assets/9dc75170-4171-4625-b4a5-eb09ea67ab88" />
+
+<h2>Step 4</h2>
+
+- Navigate to C:\
+- Create a folder named PHP
+<img width="1139" height="729" alt="step4" src="https://github.com/user-attachments/assets/701875d4-8a93-44ba-8662-afd5c78a9fc2" />
+
+- Extract php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
+(PHP 7.3.8 is used for osTicket compatibility in this lab and is not recommended for production.)
+<img width="1114" height="830" alt="step5" src="https://github.com/user-attachments/assets/c6b5e04c-86e7-4ddf-ba92-334faac4b358" />
+
 
