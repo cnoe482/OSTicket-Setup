@@ -97,8 +97,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - In IIS Connections-> ServerName -> Sites - Default WebSite -> osTicket select Browse *:80(http)  
 <img width="1423" height="746" alt="step9" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
 
-<h2>Step 8</h2>
+- You should now be able to see this webpage
+<img width="821" height="743" alt="step9-2" src="https://github.com/user-attachments/assets/6a1865c0-2fc8-4bff-b905-643e7e12f690" />
 
+<h2>Step 8 – Enable PHP Extensions</h2>
 
+- In IIS → osTicket → PHP Manager → Extensions: Enable:
+    - php_imap.dll
+    - php_intl.dll
+    - php_opcache.dll
+ <img width="362" height="707" alt="step9-5" src="https://github.com/user-attachments/assets/06de298b-6977-4686-8f9d-62e41684b645" />
+
+  <img width="1404" height="743" alt="step9-3" src="https://github.com/user-attachments/assets/a164539e-7f7f-4d3e-8c6d-95038cc1ee42" />
+
+  <img width="854" height="740" alt="step9-4" src="https://github.com/user-attachments/assets/aef05e6e-b528-4385-a12f-fb1c57c7ea4b" />
+
+- Refresh the browser
+
+<img width="828" height="740" alt="step9-6" src="https://github.com/user-attachments/assets/21bdd287-6996-4c3c-a1c8-6f51a8967cf2" />
 
 
