@@ -21,4 +21,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 11 Virtual Machine
 - Remote Desktop Client
 - Internet Information Services (IIS)
-- osTicket Installation Files Package
+- <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket Installation Files Package</a>☺</h1>
