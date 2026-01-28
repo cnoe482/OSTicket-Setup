@@ -106,9 +106,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - php_imap.dll
     - php_intl.dll
     - php_opcache.dll
-
-<img width="470" height="407" alt="step9-4" src="https://github.com/user-attachments/assets/aef05e6e-b528-4385-a12f-fb1c57c7ea4b" />
+      
 <img width="491" height="260" alt="step9-3" src="https://github.com/user-attachments/assets/a164539e-7f7f-4d3e-8c6d-95038cc1ee42" />
+<img width="470" height="407" alt="step9-4" src="https://github.com/user-attachments/assets/aef05e6e-b528-4385-a12f-fb1c57c7ea4b" />
 <img width="362" height="707" alt="step9-5" src="https://github.com/user-attachments/assets/06de298b-6977-4686-8f9d-62e41684b645" />
 
 
@@ -116,4 +116,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="828" height="740" alt="step9-6" src="https://github.com/user-attachments/assets/21bdd287-6996-4c3c-a1c8-6f51a8967cf2" />
 
+<h2>Step 9 – Configure ost-config.php</h2>
+
+- In C:\inetpub\wwwroot\osTicket\include
+    - Rename: ost-sampleconfig.php → ost-config.php
+
+<img width="954" height="626" alt="step10" src="https://github.com/user-attachments/assets/65c20887-ad4e-4ca3-8549-f9cab6171cda" />
+
+- Security settings -> Advance
+    - Disable inheritance
+    - Grant Everyone – Full Control (temporary) (For lab use only—permissions will be restricted later.)
+
+<img width="1174" height="521" alt="step10-2" src="https://github.com/user-attachments/assets/28065eb6-2e1b-4956-9d4c-1e2708832494" />
+<img width="757" height="511" alt="step10-3" src="https://github.com/user-attachments/assets/4bc285bf-f3e6-4983-9378-f64c52d0f8ff" />
 
