@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Type "optionalfeatures"
 - Enable "Internet Information Services"
 - Enable Internat Information Services -> World Wide Services -> Application Development Features -> CGI
-- 
+  
 <img width="689" height="700" alt="step2" src="https://github.com/user-attachments/assets/b958c399-0517-4d71-b69b-47c7f8bbbbaf" />
 
 - Click OK
