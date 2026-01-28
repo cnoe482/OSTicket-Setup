@@ -57,7 +57,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1139" height="729" alt="step4" src="https://github.com/user-attachments/assets/701875d4-8a93-44ba-8662-afd5c78a9fc2" />
 
 - Extract php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
-(PHP 7.3.8 is used for osTicket compatibility in this lab and is not recommended for production.)
 <img width="1114" height="830" alt="step5" src="https://github.com/user-attachments/assets/c6b5e04c-86e7-4ddf-ba92-334faac4b358" />
+(PHP 7.3.8 is used for osTicket compatibility in this lab and is not recommended for production.)
 
 
