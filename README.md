@@ -13,7 +13,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 11</b> (52H2-PRO)
+- Windows 11</b> (22H2-PRO)
 
 <h2>List of Prerequisites</h2>
 
@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Information Services (IIS)
 - <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket Installation Files Package</a>
 
-<h2>Step 1 – Download osTicke</h2>
+<h2>Step 1 – Download osTicket</h2>
 
 - Download osTicket Installation Files Package
 - Extract the files to the default path
@@ -34,7 +34,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Press Win + R
 - Type "optionalfeatures"
 - Enable "Internet Information Services"
-- Enable Internet Information Services -> World Wide Services -> Application Development Features -> CGI
+- Enable Internet Information Services -> World Wide Web Services -> Application Development Features -> CGI
   
 <img width="689" height="700" alt="step2" src="https://github.com/user-attachments/assets/b958c399-0517-4d71-b69b-47c7f8bbbbaf" />
 
@@ -123,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img width="954" height="626" alt="step10" src="https://github.com/user-attachments/assets/65c20887-ad4e-4ca3-8549-f9cab6171cda" />
 
-- Security settings -> Advance
+- Security settings -> Advanced
     - Disable inheritance
     - Grant Everyone – Full Control (temporary) (For lab use only—permissions will be restricted later.)
 
