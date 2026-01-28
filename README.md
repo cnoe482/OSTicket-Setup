@@ -29,4 +29,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Extract the files to the default path
 <img width="1144" height="730" alt="step1" src="https://github.com/user-attachments/assets/5f1e1f02-8b42-4101-bb8d-77c5df1ae34d" />
 
+<h2>Step 2</h2>
+- Press Win + R
+- Type "optionalfeatures"
+- Enable "Internet Information Services"
+- Enable Internat Information Services -> World Wide Services -> Application Development Features -> CGI
+<img width="689" height="700" alt="step2" src="https://github.com/user-attachments/assets/b958c399-0517-4d71-b69b-47c7f8bbbbaf" />
+- Click OK
+- Restart Computer
 
