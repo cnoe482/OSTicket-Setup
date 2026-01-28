@@ -60,4 +60,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1114" height="830" alt="step5" src="https://github.com/user-attachments/assets/c6b5e04c-86e7-4ddf-ba92-334faac4b358" />
 (PHP 7.3.8 is used for osTicket compatibility in this lab and is not recommended for production.)
 
+<h2>Step 5</h2>
+
+<img width="1082" height="626" alt="step6" src="https://github.com/user-attachments/assets/8247f2fe-4f77-4fd1-86ed-0ffc9a064aa4" />
+- Run VC_redist.x86.exe
+- Install MySQL 5.6.62
+    - Setup Type: Typical
+    - Configuration: Standard
+    - Run as Windows Service
+    - Root password: root (lab only)
+    
+<img width="497" height="388" alt="step6-2" src="https://github.com/user-attachments/assets/672976b9-fe42-4fe7-aeb0-040f4867d7f1" />
+
+<img width="501" height="378" alt="step6-4" src="https://github.com/user-attachments/assets/e6a08e94-e0d3-4990-82a0-815d9602dc14" />
 
