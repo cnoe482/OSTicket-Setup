@@ -25,6 +25,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 0 – Setting up VM Environment</h2>
 
+- Run PHPManagerForIIS
+        - Complete the Setup Wizard Prompts
+- Run rewrite_amd64_en-US
+        - Complete installation
+
 - Specs for Azure VM used in Lab
         - OS: Windows 11 Pro
         - Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
@@ -42,7 +47,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 2 – Enable IIS</h2>
 
 - Press Win + R
-        - Type "optionalfeatures"
+- Type "optionalfeatures"
 - Enable "Internet Information Services"
 - Enable Internet Information Services → World Wide Web Services → Application Development Features → CGI
 - Click OK
