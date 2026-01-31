@@ -39,7 +39,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Click OK
 - Restart Computer
 
-<img width="689" height="700" alt="step2" src="https://github.com/user-attachments/assets/b958c399-0517-4d71-b69b-47c7f8bbbbaf" />
+<img width="688" height="697" alt="step2" src="https://github.com/user-attachments/assets/e820601f-38ab-479e-a59e-aa22ac08664a" />
 
 
 <h2>Step 3 – Install PHPManager & Rewrite</h2>
