@@ -25,17 +25,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 0 – Setting up VM Environment</h2>
 
-- Run PHPManagerForIIS
-        - Complete the Setup Wizard Prompts
-- Run rewrite_amd64_en-US
-        - Complete installation
-
 - Specs for Azure VM used in Lab
-        - OS: Windows 11 Pro
-        - Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
-        - Purpose: Host IIS + MySQL + osTicket
+    - OS: Windows 11 Pro
+    - Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
+    - Purpose: Host IIS + MySQL + osTicket
 - Full Setup tutorial here
-        - [AzureVM-Setup](https://github.com/cnoe482/VM-Setup)
+    - [AzureVM-Setup](https://github.com/cnoe482/VM-Setup)
 
 <h2>Step 1 – Download osTicket</h2>
 
@@ -60,9 +55,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Open osTicket-Installation-Files
 - Run PHPManagerForIIS
-        - Complete the Setup Wizard Prompts
+    - Complete the Setup Wizard Prompts
 - Run rewrite_amd64_en-US
-        - Complete installation
+    - Complete installation
 
 <img width="1128" height="634" alt="step3" src="https://github.com/user-attachments/assets/9dc75170-4171-4625-b4a5-eb09ea67ab88" />
 
@@ -96,15 +91,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 6 – Configure PHP in IIS</h2>
 
 - Open IIS Manager (Always open as Administrator)
-        - Windows search bar type "IIS"
-        - Right Click Internet Information Services Manager
-        - Click run as Administrator 
+    - Windows search bar type "IIS"
+    - Right Click Internet Information Services Manager
+    - Click run as Administrator 
 - In IIS open PHP Manager
 - Register PHP version: C:\PHP\php-cgi.exe
 - Restart IIS
-        - Right Click Server name or use the side bar on the right
-        - Select Stop
-        - Select Start
+    - Right Click Server name or use the side bar on the right
+    - Select Stop
+    - Select Start
   
 <img width="1224" height="743" alt="step6" src="https://github.com/user-attachments/assets/534bb507-5dc3-48ff-a2d9-4da6b6188029" />
 
