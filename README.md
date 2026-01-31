@@ -120,9 +120,9 @@ You should now be able to see this webpage
     - php_opcache.dll
 - Refresh the browser
       
-<img width="661" height="350" alt="step9-3" src="https://github.com/user-attachments/assets/a164539e-7f7f-4d3e-8c6d-95038cc1ee42" />
+<img width="566" height="300" alt="step9-3" src="https://github.com/user-attachments/assets/a164539e-7f7f-4d3e-8c6d-95038cc1ee42" />
 
-<img width="404" height="350" alt="step9-4" src="https://github.com/user-attachments/assets/aef05e6e-b528-4385-a12f-fb1c57c7ea4b" />
+<img width="347" height="350" alt="step9-4" src="https://github.com/user-attachments/assets/aef05e6e-b528-4385-a12f-fb1c57c7ea4b" />
 
 <img width="362" height="707" alt="step9-5" src="https://github.com/user-attachments/assets/06de298b-6977-4686-8f9d-62e41684b645" />
 
