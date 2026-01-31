@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 0 – Setting up VM Environment</h2>
 
-- Specs for Azure VM used in Lab
+- Specs for Azure VM used:
     - OS: Windows 11 Pro
     - Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
     - Purpose: Host IIS + MySQL + osTicket
