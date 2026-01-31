@@ -120,6 +120,7 @@ You should now be able to see this webpage
 <img width="1423" height="746" alt="step7" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
 
 <img width="821" height="743" alt="step7-2" src="https://github.com/user-attachments/assets/6a1865c0-2fc8-4bff-b905-643e7e12f690" />
+*Browse *:80(HTTP)* should send yopu to this page now
 
 <h2>Step 8 – Enable PHP Extensions</h2>
 
