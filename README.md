@@ -42,7 +42,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 2 – Enable IIS</h2>
 
 - Press Win + R
-- Type "optionalfeatures"
+        - Type "optionalfeatures"
 - Enable "Internet Information Services"
 - Enable Internet Information Services → World Wide Web Services → Application Development Features → CGI
 - Click OK
