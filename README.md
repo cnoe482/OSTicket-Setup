@@ -81,8 +81,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 6 – Configure PHP in IIS</h2>
 
-- Open IIS Manager as Administrator
-- Open PHP Manager
+- Open IIS Manager (Always open as Administrator)
+        - Windows search bar type "IIS"
+        - Right Click Internet Information Services Manager
+        - Click run as Administrator 
+- In IIS open PHP Manager
 - Register PHP version: C:\PHP\php-cgi.exe
 - Restart IIS
         - Right Click Server name or use the side bar on the right
