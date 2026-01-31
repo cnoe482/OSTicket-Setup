@@ -24,6 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - <a href="https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0">osTicket Installation Files Package</a>
 
 <h2>Step 0 – Setting up VM Environment</h2>
+
 - Specs for Azure VM used in Lab
         - OS: Windows 11 Pro
         - Size: Standard D2s v3 (2 vcpus, 8 GiB memory)
