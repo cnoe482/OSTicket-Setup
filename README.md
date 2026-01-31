@@ -153,6 +153,8 @@ You should now be able to see this webpage
 - Right Click **ost-config.php** → Properties → Security settings → Advanced
     - Disable inheritance
     - Click Add
+    - Click select Prefernece
+    - type "everyone" 
     - Grant Everyone – Full Control
  
 <img width="954" height="626" alt="step9" src="https://github.com/user-attachments/assets/65c20887-ad4e-4ca3-8549-f9cab6171cda" />
