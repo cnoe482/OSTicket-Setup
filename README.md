@@ -96,6 +96,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
     - Click run as Administrator 
 - In IIS open PHP Manager
 - Register PHP version: **C:\PHP\php-cgi.exe**
+    - PHP Version should list 7.3.8 now
 - Restart IIS
     - Right Click Server name or use the side bar on the right
     - Select Stop
