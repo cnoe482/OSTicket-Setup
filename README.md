@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 1 – Download osTicket</h2>
 
 - Download osTicket Installation Files Package
-- Extract the files to the default path
+- Extract the files to the default path (Right Click the downloaded File → Extract)
 
 <img width="1144" height="730" alt="step1" src="https://github.com/user-attachments/assets/5f1e1f02-8b42-4101-bb8d-77c5df1ae34d" />
 
@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Press Win + R
 - Type "optionalfeatures"
 - Enable "Internet Information Services"
-- Enable Internet Information Services -> World Wide Web Services -> Application Development Features -> CGI
+- Enable Internet Information Services → World Wide Web Services → Application Development Features → CGI
 - Click OK
 - Restart Computer
 
@@ -46,7 +46,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Open osTicket-Installation-Files
 - Run PHPManagerForIIS
-- Complete the wizard
+- Complete the Setup Wizard Prompts
 - Run rewrite_amd64_en-US
 - Complete installation
 
@@ -54,9 +54,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 4 – Create PHP Directory</h2>
 
-- Navigate to C:\
-- Create a folder named PHP
-- Extract php-7.3.8-nts-Win32-VC15-x86.zip to C:\PHP
+- Navigate to C:\ (This PC → Local Disk(C:))
+- Create a folder named PHP (Right Click File Explorer → New → Folder)
+- Return to osTicket-Installation-Files
+- Extract php-7.3.8-nts-Win32-VC15-x86.zip to the folder we just made → C:\PHP
 
 <img width="1139" height="729" alt="step4" src="https://github.com/user-attachments/assets/701875d4-8a93-44ba-8662-afd5c78a9fc2" />
 
@@ -64,7 +65,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 5 – Install Dependencies</h2>
 
-
+- Open osTicket-Installation-Files
 - Run VC_redist.x86.exe
 - Install MySQL 5.6.62
     - Setup Type: Typical
@@ -83,7 +84,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Open IIS Manager as Administrator
 - Open PHP Manager
 - Register PHP version: C:\PHP\php-cgi.exe
-- Restart IIS (Stop then start server)
+- Restart IIS
+        - Right Click Server name or use the side bar on the right
+        - Select Stop
+        - Select Start
   
 <img width="1224" height="743" alt="step7-2" src="https://github.com/user-attachments/assets/534bb507-5dc3-48ff-a2d9-4da6b6188029" />
 
@@ -93,11 +97,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 7 – Deploy osTicket</h2>
 
-- Extract osTicket-v1.15.8
-- Copy the upload folder to: C:\inetpub\wwwroot
+- Open osTicket-Installation-Files
+- Extract osTicket-v1.15.8 to default path
+- Copy the upload folder to → C:\inetpub\wwwroot
 - Rename upload → osTicket
 - Restart IIS
-- In IIS Connections-> ServerName -> Sites - Default WebSite -> osTicket select Browse *:80(http)  
+- In IIS Connections→ ServerName → Sites - Default WebSite → osTicket select Browse *:80(http)  
 - You should now be able to see this webpage
 
 <img width="1423" height="746" alt="step9" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
@@ -106,7 +111,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 8 – Enable PHP Extensions</h2>
 
-- In IIS → osTicket → PHP Manager → Extensions: Enable:
+- In IIS → osTicket → PHP Manager → Extensions: Enable the following
     - php_imap.dll
     - php_intl.dll
     - php_opcache.dll
@@ -124,7 +129,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - In C:\inetpub\wwwroot\osTicket\include
     - Rename: ost-sampleconfig.php → ost-config.php
-- Security settings -> Advanced
+- Security settings → Advanced
     - Disable inheritance
     - Grant Everyone – Full Control (temporary) (For lab use only—permissions will be restricted later.)
  
@@ -140,13 +145,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Fill in:
     - System Settings
     - Admin User
-
- <img width="801" height="631" alt="step11" src="https://github.com/user-attachments/assets/70d452be-28a8-4c23-a71e-3f349b676101" />
-
 - Database Settings:
     - Database: osTicket
     - Username: root
     - Password: root
+
+ <img width="801" height="631" alt="step11" src="https://github.com/user-attachments/assets/70d452be-28a8-4c23-a71e-3f349b676101" />
 
 <img width="822" height="434" alt="step11-1" src="https://github.com/user-attachments/assets/207969b9-cbaa-4765-88ff-79594635ef1e" />
 
