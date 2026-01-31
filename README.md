@@ -153,7 +153,7 @@ You should now be able to see this webpage
 - Right Click **ost-config.php** → Properties → Security settings → Advanced
     - Disable inheritance
     - Click Add
-    - Click select Prefernece
+    - Click Select a Principal
     - type "everyone" 
     - Grant Everyone – Full Control
  
