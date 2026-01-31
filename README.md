@@ -67,7 +67,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Open osTicket-Installation-Files
 - Run VC_redist.x86.exe
-- Install MySQL 5.6.62
+- Run MySQL 5.6.62
     - Setup Type: Typical
     - Configuration: Standard
     - Run as Windows Service
@@ -142,10 +142,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 10 – Web-Based Setup</h2>
 
 - Click Continue on osTicket setup page
-- Fill in:
+- Fill in: with whatever information you wish:
     - System Settings
     - Admin User
-- Database Settings:
+- Database Settings: Use the listed information
     - Database: osTicket
     - Username: root
     - Password: root
@@ -156,6 +156,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Step 11 – Install HeidiSQL</h2>
 
+- Open osTicket-Installation-Files
 - Run HeidiSQL_12.3.0.6589_Setup
 - Launch HeidiSQL
 - Create a new session:
@@ -171,9 +172,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Step 12 – Cleanup & Security</h2>
 
 - Delete: C:\inetpub\wwwroot\osTicket\setup
-- Restrict permissions:
-    - ost-config.php → Read Only
-    - Remove full control from Everyone
+- Restrict permissions on ost-config.php 
+    - Return to Advanced Security Setting for ost-config.php
+    - For "Everyone": remove Full Control and only grant Read access 
 
 <img width="920" height="592" alt="step13" src="https://github.com/user-attachments/assets/d0dd7542-0b61-4ec8-8f64-d6b468802ac4" />
 
