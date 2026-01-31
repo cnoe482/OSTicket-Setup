@@ -129,9 +129,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - In C:\inetpub\wwwroot\osTicket\include
     - Rename: ost-sampleconfig.php → ost-config.php
-- Security settings → Advanced
+- Right Click ost-config.php → Properties → Security settings → Advanced
     - Disable inheritance
-    - Grant Everyone – Full Control (temporary) (For lab use only—permissions will be restricted later.)
+    - Grant Everyone – Full Control
  
 <img width="954" height="626" alt="step10" src="https://github.com/user-attachments/assets/65c20887-ad4e-4ca3-8549-f9cab6171cda" />
 
