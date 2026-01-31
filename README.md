@@ -114,12 +114,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Extract **osTicket-v1.15.8** to default path
 - Copy the upload folder to → **C:\inetpub\wwwroot**
 - Rename upload → osTicket
+    - Right Click
+    - Properties
+    - upload → osTicket
+    - OK
 - Restart IIS
 - In IIS Connections→ ServerName → Sites - Default WebSite → osTicket Click **Browse *:80(HTTP)**
 
-<img width="1423" height="746" alt="step7" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
+<img width="798" height="624" alt="step7" src="https://github.com/user-attachments/assets/69917932-ee57-466d-b07b-d1da31dc0850" />
 
-<img width="821" height="743" alt="step7-2" src="https://github.com/user-attachments/assets/6a1865c0-2fc8-4bff-b905-643e7e12f690" />
+<img width="1423" height="746" alt="step7-2" src="https://github.com/user-attachments/assets/3523f6a0-8b28-4768-8738-90b3df65cbc2" />
+
+<img width="821" height="743" alt="step7-3" src="https://github.com/user-attachments/assets/6a1865c0-2fc8-4bff-b905-643e7e12f690" />
 You should now be able to see this webpage
 
 <h2>Step 8 – Enable PHP Extensions</h2>
