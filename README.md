@@ -134,6 +134,7 @@ You should now be able to see this webpage
     - Rename: ost-sampleconfig.php → ost-config.php
 - Right Click ost-config.php → Properties → Security settings → Advanced
     - Disable inheritance
+    - Click Add
     - Grant Everyone – Full Control
  
 <img width="954" height="626" alt="step10" src="https://github.com/user-attachments/assets/65c20887-ad4e-4ca3-8549-f9cab6171cda" />
@@ -141,6 +142,8 @@ You should now be able to see this webpage
 <img width="1174" height="521" alt="step10-2" src="https://github.com/user-attachments/assets/28065eb6-2e1b-4956-9d4c-1e2708832494" />
 
 <img width="757" height="511" alt="step10-3" src="https://github.com/user-attachments/assets/4bc285bf-f3e6-4983-9378-f64c52d0f8ff" />
+
+<img width="913" height="609" alt="Full control" src="https://github.com/user-attachments/assets/82ac1685-0136-443a-8670-b75bb7656702" />
 
 <h2>Step 10 – Web-Based Setup</h2>
 
@@ -180,6 +183,8 @@ You should now be able to see this webpage
     - For "Everyone": remove Full Control and only grant Read access 
 
 <img width="920" height="592" alt="step13" src="https://github.com/user-attachments/assets/d0dd7542-0b61-4ec8-8f64-d6b468802ac4" />
+
+<img width="906" height="593" alt="readonly" src="https://github.com/user-attachments/assets/ac874730-37cd-4514-9f37-386aa8cb9e07" />
 
 <h2>Step 13 – Congratulations</h2>
 
